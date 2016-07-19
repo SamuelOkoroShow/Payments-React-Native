@@ -149,7 +149,7 @@ export default class home extends Component {
       <Icon name ="ios-person" color ="#fff" size={25} style={{alignSelf:'center'}}/>
       <TextInput 
       placeholder="Name on card"
-      style={{color:'#fff', flex:1}}
+      style={{flex:1, color:'#fff', padding:10, fontSize:14}}
       placeholderTextColor = "#fff"
       borderType="underline"
       secureTextEntry={false}
@@ -162,7 +162,7 @@ export default class home extends Component {
       style={{color:'#fff', flex:1}}
       placeholder="Card Number"
       placeholderTextColor = "#fff"
-      style={{flex:1}}
+      style={{flex:1, color:'#fff', padding:10, fontSize:14}}
       onChangeText={(val) => this.setState({cardNumber: val}) }/>
       </View>
       <Text style={{color:'#fff', margin:10}}>Expiration Date</Text>
@@ -176,8 +176,8 @@ export default class home extends Component {
 <TextInput 
       placeholderTextColor = "#fff"
       maxLength = {3}
-      placeholder = "CVV"
-      style={{color:'#fff', width:80}}
+      placeholder = "cvv"
+      style={{color:'#fff', width:80, color:'#fff', padding:10, fontSize:14}}
       onChangeText={(val) => this.setState({cvv: val}) }/>
       </View>
 

@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-import App from './App/containers/app';
+import App from './app/components/';
 
 AppRegistry.registerComponent('PaymentComp', () => App);
 
